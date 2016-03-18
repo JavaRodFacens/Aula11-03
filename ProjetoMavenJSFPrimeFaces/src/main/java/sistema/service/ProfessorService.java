@@ -30,7 +30,6 @@ public class ProfessorService {
 	}
 	
 	
-	@SuppressWarnings("unchecked")
 	public List <Professor> getProfessores(){
 		
 		List <Professor> professores = null;

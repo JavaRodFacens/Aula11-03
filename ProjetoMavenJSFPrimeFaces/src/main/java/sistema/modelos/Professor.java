@@ -8,7 +8,7 @@ public class Professor {
 	
 	@Id
 	private int inscricao;
-	private int nome;
+	private String nome;
 	private String materia;
 	
 	public int getInscricao() {
@@ -17,10 +17,10 @@ public class Professor {
 	public void setInscricao(int inscricao) {
 		this.inscricao = inscricao;
 	}
-	public int getNome() {
+	public String getNome() {
 		return nome;
 	}
-	public void setNome(int nome) {
+	public void setNome(String nome) {
 		this.nome = nome;
 	}
 	public String getMateria() {
